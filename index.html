@@ -94,6 +94,13 @@
       font-family: "Poppins", sans-serif;
     }
 
+    .iinput {
+      width: 320px;
+      height: 50px;
+      border-radius: 6px;
+      border: none
+    }
+
     .upimg {}
 
     * {
@@ -115,7 +122,10 @@
         width: 100%;
       }
 
-      .upimg {
+
+      .upimg,
+      .iinput,
+      .secondbutt {
         width: 100%;
       }
 
@@ -260,9 +270,8 @@
       </p>
       <br />
       <form action="#" method="get" autocomplete="on">
-        <input type="text" name="i-put" style="width: 320px; height: 50px; border-radius: 6px; border: none" />
-
-        &nbsp;&nbsp;<input type="button" value="Subscribe" style="
+        <input type="text" name="i-put" class="iinput">&nbsp;&nbsp;<input type="button" class="hwidth" value="Subscribe"
+          style="
               width: 165px;
               height: 50px;
               color: white;
