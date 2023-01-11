@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel="icon" href="screen-mockups.svg" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      color: hsl(192, 100%, 9%);
+      padding: 0;
+      margin: 0;
+    }
+
+    .paod {
+      padding: 50px 50px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .graybox {
+      background-color: hsl(207, 100%, 98%);
+      padding: 40px;
+      text-align: left;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: -5px;
+    }
+
+    footer {
+      background-color: hsl(192, 100%, 9%);
+      color: white;
+      text-align: left;
+      padding: 70px 95px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      line-height: 1.8;
+      margin-top: -5px;
+      height: 500px;
+    }
+
+    .secondbutt {
+      background-color: hsl(322, 100%, 66%);
+      border: none;
+      color: white;
+      padding: 22px 97px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      box-shadow: -2px 5px 8px hsl(207deg 3% 65%);
+    }
+
+    .fucked_up_img {
+      width: 100%;
+    }
+
+    .anybody {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .butt {
+      /* width: 270px;
+        height: 120px; */
+      padding: 8px 33px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: hsl(321, 100%, 78%);
+      border: 1px solid hsl(321, 100%, 78%);
+    }
+
+    .butt:hover {
+      background-color: hsl(321, 70%, 77%);
+      border: 5px dotted white;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .upimg {}
+
+    * {
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 43px;
+    }
+
+    @media screen and (max-width: 777px) {
+      header {
+        flex-direction: column;
+        align-content: space-between;
+      }
+
+      .fucked_up_img {
+        width: 100%;
+      }
+
+      .upimg {
+        width: 100%;
+      }
+
+      .graybox {
+        flex-direction: column;
+      }
+
+      footer {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .butt {
+        padding-top: 2px;
+      }
+
+      .anybody {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="paod">
+    <header>
+      <div>
+        <img src="logo.svg" alt="" />
+      </div>
+      <div>
+        <a href="http://www.Frontend Mentor | Huddle landing page with curved sections" class="butt" target="_blank">
+          Try It Free</a>
+      </div>
+    </header>
+    <br /><br /><br /><br />
+    <h1>Build The Community Your Fans Will Love</h1>
+    <p>
+      Huddle re-imagines the way we build communities. You have a <br />
+      voice, but so does your audience. Create connections with your <br />
+      users as you engage in genuine discussion.
+    </p>
+    <br /><br />
+    <a href="#" class="secondbutt"> Get Started For Free</a><br /><br /><br /><br /><br /><br />
+    <img src="screen-mockups.svg" alt="screen-mockups" class="fucked_up_img" />
+    <br /><br />
+    <div class="anybody">
+      <div style="text-align: left">
+        <img src="icon-communities.svg" alt="" height="40" width="40" /><br />
+        <span style="font-size: 70px; font-weight: bold">1.4k+</span><br />
+        Communities Formed
+      </div>
+      <div style="text-align: left">
+        <img src="icon-messages.svg" alt="" height="33" width="33" /><br />
+        <span style="font-size: 70px; font-weight: bold">2.7m+</span><br />
+        Messages Sent
+      </div>
+    </div>
+  </div>
+  <br /><br />
+  <img src="bg-section-top-desktop-1.svg" style="width: -webkit-fill-available" alt="bg-section-top-desktop-1"
+    class="fucked_up_img" style="margin: 0" />
+  <div class="graybox">
+    <div>
+      <h1>Grow Together</h1>
+      <p>
+        Generate meaningful discussions with your audience and build a
+        <br />
+        strong, loyal community. Think of the insightful conversations you
+        <br />
+        miss out on with a feedback form.
+      </p>
+    </div>
+    <div>
+      <img src="illustration-grow-together.svg" style="float: right" alt="illustration-grow-together" width="540"
+        height="470" class="upimg" />
+    </div>
+  </div>
+  <img src="bg-section-bottom-desktop-2.svg" style="width: -webkit-fill-available" alt="bg-section-bottom-desktop-2"
+    class="fucked_up_img" />
+  <br /><br />
+  <div class="graybox" style="background-color: inherit">
+    <div>
+      <img src="illustration-flowing-conversation.svg" style="float: right" alt="illustration-grow-together" width="500"
+        class="upimg" height="410" />
+    </div>
+    <div>
+      <h1>Flowing Conversations</h1>
+      <p>
+        You wouldn't paginate a conversation in real life, so why do it
+        online? <br />
+        Our threads have just-in-time loading for a more natural flow.
+      </p>
+    </div>
+  </div>
+  <br /><br />
+  <img src="bg-section-top-desktop-2.svg" alt="bg-section-top-desktop-2" style="width: -webkit-fill-available"
+    class="fucked_up_img" />
+  <div class="graybox">
+    <div>
+      <h1>Your Users</h1>
+      <p>
+        It takes no time at all to integrate Huddle with your app's <br />
+        authentication solution. This means, once signed in to your app, your
+        <br />
+        users can start chatting immediately.
+      </p>
+    </div>
+    <div>
+      <img src="illustration-your-users.svg" style="float: right" alt="illustration-grow-together" width="540"
+        height="470" class="upimg" />
+    </div>
+  </div>
+  <img src="bg-section-bottom-desktop-2.svg" style="width: -webkit-fill-available" alt="bg-section-bottom-desktop-2"
+    class="fucked_up_img" />
+  <br /><br /><br />
+  <h1>Ready To Build Your Community?</h1>
+  <br />
+  <a href="#" class="secondbutt"> Get Started For Free</a><br /><br /><br /><br /><br />
+  <img src="bg-footer-top-desktop.svg" alt="bg-section-top-desktop-2" style="width: -webkit-fill-available"
+    class="fucked_up_img" />
+  <footer>
+    <div>
+      <img src="icon-messages.svg" style="float: left;margin-top: 23px;" alt="" />&nbsp;
+      <span style="font-weight: bold; font-size: 45px">Huddle</span>
+      <br />
+      Lorem ipsum dolor sit amet, consectetur <br />
+      adipiscing elit. Mauris nulla quam, hendrerit <br />
+      lacinia vestibulum a, ultrices quis sem.
+      <br /><br />
+      <img src="icon-phone.svg" alt="icon-phone" />&nbsp;&nbsp;&nbsp; Phone: +1-543-123-4567 <br />
+      <img src="icon-email.svg" alt="email" />&nbsp;&nbsp;&nbsp; example@huddle.com <br /><br /><br />
+      <img src="icon-facebook.svg" height="35" width="35" alt="icon-facebook" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+        height="35" width="35" src="icon-instagram.svg" alt="" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="icon-twitter.svg" height="35" width="35" alt="icon-twitter" />
+    </div>
+    <div>
+      <h2 style="text-transform: uppercase">Newsletter</h2>
+      <p>
+        To recieve tips on how to grow your community, <br />
+        sign up to our weekly newsletter. We’ll never send <br />
+        you spam or pass on your email address
+      </p>
+      <br />
+      <form action="#" method="get" autocomplete="on">
+        <input type="text" name="i-put" style="width: 320px; height: 50px; border-radius: 6px; border: none" />
+
+        &nbsp;&nbsp;<input type="button" value="Subscribe" style="
+              width: 165px;
+              height: 50px;
+              color: white;
+              font-weight: bold;
+              border-radius: 6px;
+              background-color: hsl(322, 100%, 66%);
+              border: none;
+            " />
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>
