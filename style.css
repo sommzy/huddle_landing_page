@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    padding: 0;
+    margin: 0;
+}
+
+.paod {
+    padding: 50px 50px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.graybox {
+    background-color: hsl(207, 100%, 98%);
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -5px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    text-align: left;
+    padding: 70px 95px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: -5px;
+    min-height: 500px;
+}
+
+.secondbutt {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    padding: 22px 97px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: -2px 5px 8px hsl(207deg 3% 65%);
+}
+
+.fucked_up_img {
+    width: 100%;
+}
+
+.anybody {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.butt {
+    /* width: 270px;
+        height: 120px; */
+    padding: 8px 33px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+
+.butt:hover {
+    background-color: hsl(321, 70%, 77%);
+    border: 5px dotted white;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.iinput {
+    width: 320px;
+    height: 50px;
+    border-radius: 6px;
+    border: none
+}
+
+.upimg {}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 43px;
+}
+
+@media screen and (max-width: 777px) {
+    header {
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .fucked_up_img {
+        width: 100%;
+    }
+
+    .secondbutt {
+        padding: 7px 14px;
+        border-radius: 17px;
+    }
+
+
+    .upimg,
+    .iinput,
+    .secondbutt {
+        width: 100%;
+    }
+
+    .graybox {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        font-size: 10px;
+    }
+
+    .fonts {
+        font-size: 11px;
+    }
+
+    .butt {
+        padding-top: 2px;
+    }
+
+    .anybody {
+        flex-direction: column;
+    }
+}
